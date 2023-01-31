@@ -4,7 +4,7 @@ set -e
 
 read -p "Insert the database name: " db
 read -p "Insert the database user: " dbuser
-read -p "Insert the user password: " dbpasswd
+read -sp "Insert the user password: " dbpasswd
 read -p "Insert the host IP from database: " host
 
 filename=$db-`date +%d-%m-%y`.sql.gz
