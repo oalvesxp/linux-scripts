@@ -25,7 +25,7 @@ fi
 
 while [ $# -gt 0 ]
 do
-   echo "Generating passwords... \n"
+   echo "Generating passwords..."
    sleep 1
    passwdGen "$1"
    shift 1
